@@ -3,11 +3,11 @@ body{
     margin: 0;
 }
 
-
+/* NAV BAR */
 header{
     display: flex;
     height: 150px;
-    background-color: #7794D8;
+    background-color: #04070e;
     justify-content: space-between;
     align-items: center;
     
@@ -29,18 +29,14 @@ header{
     margin-left: none;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-    font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-right: 10px;
+.linkColor{
+    color:rgba(255, 255, 255, 0.771) ;
 }
-
-nav a:hover{
-    color: dimgray;
+.navBarColor{
+    color: #04070e;
 }
-
+/* NAV BAR */
+/* INICIO */
 .ilustraciones{
     display: flex;
     flex-direction: column;
@@ -78,7 +74,7 @@ nav a:hover{
     font-size: 38px;
     font-family: cursive;
 }
-
+/* INICIO */
 /* INFO */
 .informacionGeneral p{
     text-align: center;
