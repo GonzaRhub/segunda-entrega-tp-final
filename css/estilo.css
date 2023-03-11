@@ -23,12 +23,7 @@ header{
     color: rgba(255, 255, 255, 0.771);
 }
 
-@media (max-width: 992px){
-    .nombreEmpresa{
-        display: none;
-    }
-    
-}
+
 .logo img{
     height: 150px;
     width: 200px;
@@ -36,11 +31,9 @@ header{
     margin-left: none;
 }
 
-.linkColor{
-    color:rgba(255, 255, 255, 0.771) ;
-}
-.navBarColor{
-    color: #04070e;
+.linkSetUp{
+    text-decoration: none;
+    color:lightseagreen;
 }
 /* NAV BAR */
 /* INICIO */
