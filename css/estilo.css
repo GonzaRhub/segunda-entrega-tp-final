@@ -21,9 +21,14 @@ header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.771);
-    @media (width max: 992px; )
 }
 
+@media (max-width: 992px){
+    .nombreEmpresa{
+        display: none;
+    }
+    
+}
 .logo img{
     height: 150px;
     width: 200px;
