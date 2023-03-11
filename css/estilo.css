@@ -21,7 +21,7 @@ header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.771);
-    @media (width max: )
+    @media (width max: 992px; )
 }
 
 .logo img{
@@ -39,43 +39,14 @@ header{
 }
 /* NAV BAR */
 /* INICIO */
+
 .ilustraciones{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    flex-wrap: nowrap;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
 }
 
-.imagenUno{
-    margin: 5px;
-    height: 200px;
-    width: 300px;
-}
-
-.imagenDos{
-    margin: 5px;
-    height: 200px;
-    width: 300px;
-}
-.imagenTres{
-    margin: 5px;
-    height: 200px;
-    width: 300px;
-}
-.imagenCuatro{
-    margin: 5px;
-    height: 200px;
-    width: 300px;
-}
-
-.introduccion{
-    text-align: center;
-    position: absolute;
-    top: 200px;
-    left: 350px;
-    font-size: 38px;
-    font-family: cursive;
-}
 /* INICIO */
 /* INFO */
 .informacionGeneral p{
