@@ -7,6 +7,7 @@ body{
 header{
     display: flex;
     height: 150px;
+    width: auto;
     background-color: #1F1F1F;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +24,15 @@ header{
     color: rgba(255, 255, 255, 0.771);
 }
 
+.nombreEmpresa:hover{
+    background-color: bisque;
+}
+
+@media(max-width: 1398px){
+    .nombreEmpresa{
+        display: none;
+    }
+}
 
 .logo img{
     height: 150px;
@@ -33,7 +43,9 @@ header{
 
 .linkSetUp{
     text-decoration: none;
-    color:lightseagreen;
+    color: olive;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* NAV BAR */
 /* INICIO */
@@ -117,4 +129,30 @@ td{
 
 #tit{
     margin-left: 30px;
+}
+/* RECOMENDACIONES */
+
+.mainReco{
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    "reco"
+    "videoUno"
+    "videoDos";
+}
+
+
+.reco ol li{
+    color: bisque;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    color: bisque;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+
 }
